@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Demo from "./components/Demo";
 import "./App.css"
+import Footer from "./components/Footer";
 
 const App = () => {
     return <div>
@@ -13,6 +14,8 @@ const App = () => {
           <Hero />
           <Demo />
         </div>
+
+        <Footer/>
       </main>
     </div>;
 };
